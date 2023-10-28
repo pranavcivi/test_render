@@ -26,6 +26,10 @@ app.get("/four", (req, res) => {
     res.send("<h2>Page 4</h2>")
 })
 
+app.get("/five", (req, res) => {
+    res.send("<h2>Page 5</h2>")
+})
+
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
